@@ -38,6 +38,7 @@ nav{
 nav ul{
     display: flex;
     height: 58px;
+
     justify-content: flex start;
     align-items: center;
     padding-left: 12.5%;
@@ -67,7 +68,7 @@ a.active, a:hover{
 }
 
 .functions input{
-    width: 493px;
+    width: 30vw;
     height: 27px;
     border-radius: 7px;
     margin: 0px 16px 0px 56px;
@@ -78,6 +79,10 @@ a.active, a:hover{
     font-family: 'Lato', sans-serif;
 }
 
+.input{
+    display: flex;
+    flex-direction: row;
+}
 .container{
     background-color: rgb(253, 253, 253);
     min-height: calc(100vh - 58px) ;
