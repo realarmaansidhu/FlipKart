@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Serif:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto+Serif:wght@100&display=swap');
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-hd-color: #2370f4;
+    --main-ft-color: #172337;
+    --main-txt-bg: #1b6bff;
+}  
+header{
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    height: 58px;
+    background-color: var(--main-hd-color);
+}
+
+nav{
+    display: flex;
+    height: 58px;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.logo{
+    width: 88px;
+    padding-left: 5%;
+}
+
+nav ul{
+    display: flex;
+    height: 58px;
+    justify-content: flex start;
+    align-items: center;
+    padding-left: 12.5%;
+}
+
+nav ul li{
+    margin-left: 2vw;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.active, a:hover{
+    font-weight: bolder;
+    background: var(--main-txt-bg);
+}
+
+.functions{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.functions input{
+    width: 493px;
+    height: 27px;
+    border-radius: 7px;
+    margin: 0px 16px 0px 56px;
+    padding: 0px 12px;
+}
+
+.functions btn{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    background-color: rgb(253, 253, 253);
+    min-height: calc(100vh - 58px) ;
+    margin: 12px auto;
+}
+
+.item-line{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.slider img{
+    min-width: 1680px;
+    height: 280px;
+    margin: 12px auto;
+}
+
+.item-line{
+    width: 80vw;
+    margin: 12px auto;
+}
+
+.ftr{
+    display: flex;
+    flex-direction: row;
+}
+
+.ftr > * > ul {
+    margin: 10px 40px
+}
+
+.About ul li{
+    font-size: medium;
+    margin: 0.25vw;
+    list-style: none;
+}
+
+.About ul li a{
+    font-family: 'Loto', sans-serif;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.Help ul li{
+    font-size: medium;
+    margin: 0.25vw;
+    list-style: none;
+}
+
+.Help ul li a{
+    font-family: 'Loto', sans-serif;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.Policy ul li{
+    font-size: medium;
+    margin: 0.25vw;
+    list-style: none;
+}
+
+.Policy ul li a{
+    font-family: 'Loto', sans-serif;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.Social ul li{
+    font-family: 'Loto', sans-serif;
+    font-size: medium;
+    margin: 0.25vw;
+    list-style: none;
+}
+
+.Social ul li a{
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Roboto Serif', sans-serif;
+    width: 100vw;
+    height: 21vh;
+    color: white;
+    background-color: var(--main-ft-color);
+}
